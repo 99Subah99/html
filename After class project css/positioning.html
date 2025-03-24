@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: rgb(202, 134, 168);
+            width: 100px;
+            height: 100px;
+            border: 5px solid;
+            margin: 9px;
+        }
+    
+        sticky {
+            left: 30px;
+            background-color: rgb(26, 117, 87);
+        }
+    
+        .absolute {
+            position: absolute;
+            top: 5px;
+            right: 30px;
+            background-color: rgb(151, 58, 97);
+        }
+    
+        .relative {
+            position: relative;
+            top: 20px;
+            background-color: rgb(199, 176, 221);
+        }
+    
+        .fixed {
+            position: fixed;
+            left: 100px;
+            top: 500px;
+            background-color: rgb(127, 98, 180);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        No position
+    </div>
+    <div class="sticky">
+        Sticky positioning
+    </div>
+    <div class="relative">
+        Relative positioning
+    </div>
+    <div class="absolute">
+        Absolute positioning
+    </div>
+    <div class="fixed">
+        Fixed positioning
+    
+    </div>
+    <div class="bottom">
+        <p> Scrolling</p>
+    </div>
+</body>
+</html>

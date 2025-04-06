@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+
+    <script>
+        var Animals  = ["Dog", "Cat", "Lion", "Jaguar"]
+        var text = "";
+        for (var i = 0; i <Animals.length; i++) {
+            text = text + (i + 1) + fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+
+        document.write(Animals.join("") + "<br>")
+
+        fruits.pop();
+        document.write(Animals + "<br>");
+
+        fruits.push("Dog");
+        document.write(Animals + "<br>");
+
+        fruits.unshift("Cat");
+        document.write(Animals + "<br>");
+
+        fruits.shift(Jaguar);
+        document.write(Animals + "<br>");
+
+        fruits.splice(2, 4, "Lion", "Dog");
+        document.write(Animals + "<br>");
+    </script>
+
+
+</body>
+
+</html>

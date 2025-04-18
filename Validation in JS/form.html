@@ -21,14 +21,14 @@
 
         //name validation
         const name = document.getElementById('name').value.trim()
-        const nameError = document.ElementById('nameError')
+        const nameError = document.getElementById('nameError')
         if(!name){
             nameError.innerHTML = "Name is required";
             valid = false;
 
         }
          else if(name.length < 3 || name.length > 20) {
-            nameError.innerHTml = "Name must be not within 3 to 20 charechters";
+            nameError.innerHTML = "Name must be not within 3 to 20 charechters";
             valid = false
          }
          //email validation
